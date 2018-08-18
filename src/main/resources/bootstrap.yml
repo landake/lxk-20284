@@ -1,5 +1,5 @@
 server:
-  port: 18080
+  port: 20284
 spring:
   application:
     name: lxk-20284
