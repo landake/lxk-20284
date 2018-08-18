@@ -18,6 +18,6 @@ public class DemoController {
     @Permission(level = ResourceLevel.SITE, permissionPublic = true)
     @ApiOperation(value = "demo")
     public ResponseEntity<String> hello() {
-        return new ResponseEntity<String>("hello world", HttpStatus.OK);
+        return new ResponseEntity<String>("Hello world", HttpStatus.OK);
     }
 }
